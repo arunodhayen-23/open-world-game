@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Coastline Heat — Open World',
+  description: 'Your city. Your rules. Explore a sunlit 3D coastal city, drive fast, complete missions, and escape the heat in this original browser sandbox.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -26,11 +26,8 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
-  ],
+  colorScheme: 'dark',
+  themeColor: '#1b2c2b',
 }
 
 export default function RootLayout({
